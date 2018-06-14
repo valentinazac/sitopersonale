@@ -1,0 +1,223 @@
+/* font-family: 'Source Sans Pro', sans-serif;*/
+#barra {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  left: 0%;
+  top: 0%;
+}
+
+.nome {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight:600;
+  font-size: 5vh;
+  position: absolute;
+  top: -30%;
+  left: 5%;
+}
+
+#Home {
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+
+#rettangoloazz {
+  height: 100vh;
+  width: 100vw;
+  left: 0%;
+  background-color: #BFE4E5;
+}
+
+.homeheader {
+  font-family: Raleway, sans-serif;
+  font-size: 15vh;
+  font-weight: 600;
+}
+
+.hometext {
+  font-family: Raleway, sans-serif;
+  font-size: 5vh;
+  font-weight: normal;
+  padding-left: 1%;
+}
+
+.blank-space {
+  height: 10%;
+  width: 100%;
+}
+
+.menu {
+  text-align: right;
+  color: white;
+  font-family: Raleway, sans-serif;
+  list-style: none;
+  margin-top: 6.5vh;
+  font-size: 3vh;
+  padding-right: 3%;
+}
+
+.menu a {
+  padding: 0.5%;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BFE4E5;
+}
+
+.presfoto {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 4vh;
+  font-weight: normal;
+  padding-top: -3%;
+}
+
+.spaziofoto {
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.rettangolo {
+  width: 80vw;
+  height: 70vh;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #BFE4E5;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10vh;
+  z-index: -1;
+  background-color:#BFE4E5;
+}
+
+.mySlides {display: none}
+
+.slideshow-container {
+  max-width: 100%;
+}
+
+.photo{
+  position: relative;
+  margin-left: 25%;
+  margin-top: -1%;
+
+}
+
+.text {
+    color: black;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: black
+    font-family: Raleway,sans-serif;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+.containerphoto{
+  margin-right: 12vw;
+  margin-top: 8vh;
+  float: right;
+  width: 7vw;
+}
+
+li{
+  list-style: none;
+}
+.thumbnail {
+  list-style: none;
+  position: relative;
+  width: 7vw;
+  float: right;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.corpo {
+  margin-left: 2vw;
+  font-family: Raleway, sans-serif;
+  font-size: 5vh;
+}
+
+.link{
+  color: black;
+}
+
+.aboutme {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10vh;
+}
+
+.tcontainer{
+  margin-left: 3vw;
+  width: 30vw;
+  height: 70vh;
+  float: left;
+}
+
+
+.mcontainer{
+  margin-right: 3vw;
+  width: 30vw;
+  height: 70vh;
+  float: right;
+}
+
+#milano {
+  float: right;
+}
+
+.standard {
+  font-family: Raleway, sans-serif;
+  font-size: 3vh;
+  text-align: center;
+}
+
+#tdescrizione {
+  margin-top: -0.1vh;
+}
+
+#anni {
+  margin-top: -2vh;
+}
+
+#mdescrizione {
+  padding: 3vh;
+}

@@ -1,0 +1,138 @@
+<html>
+<head>
+  <link href="stile.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+<title>My Page</title>
+</head>
+<body>
+
+  <div id="barra">
+    <p class="nome">Valentina Zaccaria</p>
+    <ul class="menu">
+      <a href="#home">Home</a>
+      <a href="#travel">Travels</a>
+      <a href="#taranto">My Roots</a>
+      <a href="#info">Info</a>
+    </ul>
+  </div>
+
+<div id="rettangoloazz">
+  <div id="home">
+   <div class="corpo">
+    <div class="homeheader">
+      Hello world!
+    </div>
+     <div class="hometext">
+      Welcome to my website
+     </div>
+   </div>
+  </div>
+</div>
+
+<div class="blank-space"></div>
+
+<div id="travel" class="blank-space"></div>
+
+ <div class="spaziofoto">
+  <div id="rettangolo" class="rettangolo">
+    <div class="corpo">
+     <p class="presfoto">Some photos from my travels</p>
+
+<div class="slideshow-container">
+
+ <div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img  class="photo" src="img1.jpg" style="width:50%">
+  <div class="text">Grecia</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">2 / 5</div>
+   <img class="photo" src="img2.jpg" style="width:50%">
+   <div class="text">Berlino</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">3 / 5</div>
+   <img class="photo img3" src="img3.jpg" style="width:50%">
+   <div class="text">Berlino</div>
+ </div>
+
+ <div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img class="photo" src="img4.jpg" style="width:50%">
+  <div class="text">Berlino</div>
+ </div>
+
+ <div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img class="photo" src="img5.jpg" style="width:30%">
+  <div class="text">Roma</div>
+ </div>
+
+<br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+</div>
+</div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+</div>
+
+<div class="blank-space"></div>
+
+<div id="taranto" class="blank-space"></div>
+
+<div class="corpo">
+  <p class="description">Taranto is the place where I belong. It's very important to me.
+    <br> It represents to me a source of inspiration </p>
+    <p class="works"><a href="#" class="link">These</a> are some of my works for an hypothetical turistic campaigne.</p>
+</div>
+<div class="blank-space"></div>
+
+<div id="info" class="blank-space"></div>
+
+<div class="corpo">
+  <p class="aboutme">About me</p>
+  <div class="tcontainer">
+   <img id="taranto" src="taranto.jpg" style="width:100%">
+    <p id="tdescrizione" class="standard">Taranto, Puglia</p>
+    <p id="anni" class="standard">07/02/1999</p>
+  </div>
+  <div class="mcontainer">
+    <img id="milano" src="milano.jpg" style="width:100%">
+    <p id="mdescrizione" class="standard"> Moved to Milano to study Communication Design at Politecnico di Milano</p>
+ </div>
+
+</div>
+
+
+</html>
