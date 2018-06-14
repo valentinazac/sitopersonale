@@ -1,0 +1,77 @@
+#barra {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  left: 0%;
+  top: 0%;
+}
+
+.nome {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight:600;
+  font-size: 5vh;
+  position: absolute;
+  top: -30%;
+  left: 5%;
+}
+
+#Home {
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+.menu {
+  text-align: right;
+  color: white;
+  font-family: Raleway, sans-serif;
+  list-style: none;
+  margin-top: 6.5vh;
+  font-size: 3vh;
+  padding-right: 3%;
+}
+
+.menu a {
+  padding: 0.5%;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BFE4E5;
+}
+
+.galleria{
+  margin: auto;
+  height: 100vh;
+  width: 60vw;
+  margin-top: 10%;
+}
+
+.sg {
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+.text {
+  margin-top: 15vh;
+  text-align: center;
+  float: right;
+  font-family: Raleway, sans-serif;
+  font-size: 3vh;
+  padding: 7%;
+}
+
+.sr {
+  margin-top: 15vh;
+  margin-left: 2vw;
+}
