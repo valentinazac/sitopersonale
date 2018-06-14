@@ -64,6 +64,19 @@
   padding: 0.5%;
 }
 
+.link:link {
+  text-decoration: underline;
+}
+
+.link:visited{
+  color: black;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #BFE4E5;
+}
+
 a:link {
   color: white;
   text-decoration: none;
@@ -116,7 +129,10 @@ a:hover {
   position: relative;
   margin-left: 25%;
   margin-top: -1%;
+}
 
+.photo1 {
+  margin-left: 29vw;
 }
 
 .text {
@@ -169,15 +185,18 @@ li{
   padding: 3px;
 }
 
-.corpo {
+#corpo1 {
+  height: 50vh;
   margin-left: 2vw;
   font-family: Raleway, sans-serif;
   font-size: 5vh;
+  text-align: center;
 }
 
-.link{
-  color: black;
+.description{
+  margin-top: 17%;
 }
+
 
 .aboutme {
   font-family: Raleway, sans-serif;
@@ -187,7 +206,7 @@ li{
 }
 
 .tcontainer{
-  margin-left: 3vw;
+  margin-left: 10vw;
   width: 30vw;
   height: 70vh;
   float: left;
@@ -195,7 +214,7 @@ li{
 
 
 .mcontainer{
-  margin-right: 3vw;
+  margin-right: 10vw;
   width: 30vw;
   height: 70vh;
   float: right;
@@ -220,5 +239,5 @@ li{
 }
 
 #mdescrizione {
-  padding: 3vh;
+  padding: 2vh;
 }
