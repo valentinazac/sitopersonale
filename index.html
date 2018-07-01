@@ -2,6 +2,7 @@
 <head>
   <link href="stile.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+  <script src="jquery.js"></script>
 <title>My Page</title>
 </head>
 <body>
@@ -20,10 +21,10 @@
   <div id="home">
    <div class="corpo">
     <div class="homeheader">
-      Hello world!
+      Welcome to<br>my website!
     </div>
      <div class="hometext">
-      Welcome to my website
+      This is a page that I've created for the course<br>"Elementi di informatica e reti di calcolatori"
      </div>
    </div>
   </div>
@@ -83,27 +84,7 @@
 </div>
 </div>
 
-  <script>
-  var slideIndex = 0;
-  showSlides();
 
-  function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3000); // Change image every 2 seconds
-  }
-  </script>
 </div>
 </div>
 
@@ -120,8 +101,10 @@
 
 <div id="info" class="blank-space"></div>
 
-<div class="corpo">
-  <p class="aboutme">About me</p>
+<div id="contenitore">
+  <div id="contorno">
+  <p id="aboutme" class="aboutme">About me
+  </p></div>
   <div class="tcontainer">
    <img id="taranto" src="taranto.jpg" style="width:100%">
     <p id="tdescrizione" class="standard">Taranto, Puglia</p>
@@ -133,6 +116,10 @@
  </div>
 
 </div>
+
+  <script src="js.js"></script>
+</body>
+
 
 
 </html>
